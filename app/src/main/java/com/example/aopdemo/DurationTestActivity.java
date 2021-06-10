@@ -21,6 +21,7 @@ public class DurationTestActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_durationtest);
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
